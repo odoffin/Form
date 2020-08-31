@@ -1,0 +1,39 @@
+h3 {
+  font-family: serif;
+
+}
+
+form {
+  background-color: #f3f3f3;
+  color: black;
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 50rem;
+  /* Form outline */
+  padding: 1em;
+  border: 2px solid green;
+  border-radius: 1em;
+}
+
+/* Size of the iput boxes*/
+input {
+  width: 160px;
+  height: 20px;
+}
+/* Positon of the font awesome icons*/
+i {
+  position: absolute;
+  left: 15px;
+  top: 40px;
+  color: #005086;
+}
+/* Full width assigned for text inside the input box*/
+input[type=text],
+input[type=password],
+input[type=email], input[type=number] {
+  width: 100%;
+  padding: 12px 40px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
